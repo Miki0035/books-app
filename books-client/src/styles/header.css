@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+.nav-link-container {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  justify-content: space-between;
+}
+.nav-link-container a:last-child {
+  transition: 0.4s ease-in-out;
+}
+.nav-link-container a:last-child:hover {
+  transition: 0.4s ease-in-out;
+
+  transform: scale(1.1);
+}
+
+.navbar span {
+  color: #fff;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-link-container {
+    width: 900px;
+  }
+  
+}

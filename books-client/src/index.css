@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Basker;
+    src: url("./assets/fonts/Baskervville_SC/BaskervvilleSC-Regular.ttf");
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Basker , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
